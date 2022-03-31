@@ -8,6 +8,7 @@ import CoreValues from "./component/core-values/CoreValues";
 import Makeus from "./component/makeus/Makeus";
 import OurClient from "./component/our-client/OurClient";
 import Contactus from "./component/contactus/Contactus";
+import Copyright from "./component/copyright/Copyright";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Makeus />
       <OurClient />
       <Contactus />
+      <Copyright />
     </div>
   );
 }

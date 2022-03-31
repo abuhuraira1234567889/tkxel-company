@@ -4,7 +4,7 @@ import "./ourclient.css";
 export default function OurClient() {
   return (
     <>
-      <div className="ourclient">
+      <div className="ourclient ">
         <div className="ourclient-main container">
           <div className="ourclient-heading">
             <p>Our Clients</p>

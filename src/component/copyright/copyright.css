@@ -1,0 +1,36 @@
+.copyright-main {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-links ul {
+  display: flex;
+}
+.copyright-links ul li {
+  margin-left: 30px;
+}
+a {
+  text-decoration: none;
+}
+.copyright-text {
+  list-style: none;
+}
+.copyrights-menu {
+  padding-left: 0%;
+}
+.copyrights-menu li a {
+  color: black;
+}
+.copyright-logo a {
+  margin-left: 20px;
+}
+@media (max-width: 997px) {
+  .copyright-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyrights-menu {
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+  }
+}
