@@ -1,0 +1,129 @@
+.contact-main {
+  display: flex;
+  justify-content: space-between;
+}
+.pic-txt {
+  display: flex;
+}
+.form-logo {
+  display: flex;
+  flex-direction: column;
+}
+select {
+  width: 100%;
+
+  width: 100%;
+  font-size: 1rem;
+  color: #000;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 25px;
+  background: #fff;
+}
+.input-mail input,
+.phone input {
+  border: none;
+  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid rgba(13, 20, 29, 0.2);
+  background: 0 0;
+  height: 50px;
+
+  border-radius: 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #d3c3c3;
+}
+.phone {
+  display: flex;
+  justify-content: space-between;
+}
+.phone-no {
+  width: 47%;
+}
+.input-mail {
+  display: flex;
+}
+.left-mail {
+  margin-left: 20px;
+}
+.textare textarea {
+  width: 100%;
+  font-size: 1rem;
+  color: #000;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 25px;
+  background: #fff;
+}
+.chk-box {
+  margin: 10px 10px;
+}
+.chk-box input {
+  margin-right: 10px;
+}
+.form-logo img {
+  margin-bottom: 50px;
+}
+.form-btn button {
+  background: #007aff;
+  border: 1px solid #007aff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: 100px;
+  display: inline-block;
+  height: 40px;
+}
+.img img {
+  border-radius: 40px;
+  width: 50px;
+  filter: grayscale(100%);
+  margin-top: 12px;
+}
+.txt {
+  margin-left: 15px;
+}
+.contactus-header {
+  background: #fff;
+  color: #000;
+  border: 1px solid #e2e2e2;
+  padding: 40px;
+}
+@media (max-width: 996px) {
+  .contact-main {
+    flex-direction: column;
+  }
+  .form-imges {
+    width: 200px;
+  }
+  .form-logo {
+    margin-top: 50px;
+  }
+  .left-mail {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .input-mail {
+    flex-direction: column;
+  }
+  .phone {
+    flex-direction: column;
+  }
+  .input-mail input,
+  .phone input {
+    width: 100%;
+  }
+  .left-mail {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,56 @@
+.core-value{
+    background-color: #eef4fa;
+}
+.core-main{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.core-title h2{
+    font-size: 20px;
+}
+.core-title p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.core-card h2{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.core-card p{
+    font-size: 14px;
+    
+
+}
+
+
+.core-row{
+    display: flex;
+    margin-top: 30px;
+}
+.core-card{
+    text-align: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.core-title {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+@media (max-width:767px) {
+    .core-row{
+        flex-direction: column;
+    }
+    .core-card{
+        
+        width: 100%;
+    }
+
+    
+}
